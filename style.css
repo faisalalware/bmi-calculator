@@ -152,4 +152,8 @@ a:hover{
     #name, #age, #height, #weight{
         width: 220px !important;
     }
+
+    .form-section {
+        margin-bottom: 30px;
+    }
 }
