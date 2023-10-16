@@ -1,3 +1,3 @@
-# bmi-calculator
+# BMI Calculator
 
-A BMI calculator built with HTML5, CSS3, and Javascript.
+A BMI calculator built with HTML, CSS, and Javascript.
