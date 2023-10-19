@@ -66,20 +66,45 @@ input::placeholder {
     text-transform: uppercase;
 }
 
-.results thead tr th{
-    background-color: #212529 !important;
-    font-size: 18px;
-    text-align: center;
-}
-
 .results th{
     width: 130px;
     text-align: left;
     background-color: #212529 !important;
     color: white !important;
+    font-weight: 500;
 }
 
 .results td{
+    background-color: #0d6efd !important;
+    color: white !important;
+}
+
+.bmr-count{
+    margin-bottom: 57px !important;
+}
+
+.bmr-count th{
+    width: 230px;
+    text-align: left;
+    background-color: #212529 !important;
+    color: white !important;
+    font-weight: 500;
+}
+
+.bmr-count td{
+    background-color: #0d6efd !important;
+    color: white !important;
+}
+
+.amr-count th{
+    width: 380px;
+    text-align: left;
+    background-color: #212529 !important;
+    color: white !important;
+    font-weight: 500;
+}
+
+.amr-count td{
     background-color: #0d6efd !important;
     color: white !important;
 }
@@ -101,6 +126,7 @@ input::placeholder {
 .weight-guide > table > thead > tr > td{
     background-color: #212529 !important;
     color: white !important;
+    font-weight: 500 !important;
 }
 
 .weight-guide > table > tbody > tr > td{
@@ -137,6 +163,10 @@ a:hover{
     .form-section {
         border-right: none;
         margin-bottom: 30px;
+    }
+    
+    .calorie-count th{
+        width: 200px;
     }
 
     th{
