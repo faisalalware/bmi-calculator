@@ -48,7 +48,6 @@ form.addEventListener('submit', function (e) {
   const moderatelyActive = (bmr * 1.55).toFixed(0);
   const active = (bmr * 1.725).toFixed(0);
   const veryActive = (bmr * 1.9).toFixed(0);
-  console.log(veryActive);
 
   // Form validation  
   if (nameVal === '') {

@@ -165,7 +165,11 @@ a:hover{
         margin-bottom: 30px;
     }
     
-    .calorie-count th{
+    .bmr-count th{
+        width: 200px;
+    }
+
+    .amr-count th{
         width: 200px;
     }
 
@@ -186,4 +190,13 @@ a:hover{
     .form-section {
         margin-bottom: 30px;
     }
+
+    .bmr-count th{
+        width: 130px;
+    }
+
+    .amr-count th{
+        width: 130px;
+    }
+    
 }
