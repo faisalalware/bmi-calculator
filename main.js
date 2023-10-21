@@ -12,7 +12,7 @@ form.addEventListener('submit', function (e) {
   const weight = parseInt(document.getElementById('weight').value);
 
   //Get elements from the document
-  const scoreElement = document.getElementById('score');
+  const bmiScoreElement = document.getElementById('bmi-score');
   const statusElement = document.getElementById('status');
   const idealWeightElement = document.getElementById('ideal-weight');
   const maintainWeightElement = document.getElementById('maintain-weight');
@@ -63,7 +63,7 @@ form.addEventListener('submit', function (e) {
   }
   else {
     // Print BMI value
-    scoreElement.innerHTML = `${name} your score is ${bmi}`;
+    bmiScoreElement.innerHTML = `${name} your score is ${bmi}`;
 
     // Print BMR value
     maintainWeightElement.innerHTML = `Consume ${maintainWeight} calories per day`;
