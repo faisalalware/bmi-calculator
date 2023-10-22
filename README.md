@@ -1,6 +1,6 @@
 # BMI Calculator
 
-A BMI calculator built with HTML, CSS, and Javascript.
+A BMI Calculator built with HTML, CSS, and Javascript.
 
 ![screenshot](images/screenshot.png)
 
