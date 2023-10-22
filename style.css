@@ -19,16 +19,16 @@ input::placeholder {
     text-align: end;
 }
 
-#wrapper{
+#wrapper {
     padding: 35px 0 20px;
 }
 
-#myForm button{
+#myForm button {
     border: none !important;
     border-radius: 50px !important;
 }
 
-#myForm button:hover{
+#myForm button:hover {
     background-color: #0d6efd !important;
 }
 
@@ -36,7 +36,9 @@ input::placeholder {
     border-right: 1px solid #6c757d;
 }
 
-#name, #height, #weight{
+#name,
+#height,
+#weight {
     margin-left: 10px;
 }
 
@@ -52,16 +54,16 @@ input::placeholder {
     text-align: start;
 }
 
-#status::first-letter{
+#status::first-letter {
     text-transform: uppercase;
 }
 
-.results-table{
-    padding-right: calc(var(--bs-gutter-x) * 1.5);
-    padding-left: calc(var(--bs-gutter-x) * 1.5);
+.results-table {
+    padding-right: calc(1.5rem * 1.5);
+    padding-left: calc(1.5rem * 1.5);
 }
 
-.results-table th{
+.results-table th {
     width: 130px;
     text-align: left;
     background-color: #212529 !important;
@@ -69,18 +71,18 @@ input::placeholder {
     font-weight: 500;
 }
 
-.results-table td{
+.results-table td {
     background-color: #0d6efd !important;
     color: white !important;
 }
 
-.bmr-table{
+.bmr-table {
     margin-bottom: 57px !important;
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(1.5rem * 0.5);
+    padding-left: calc(1.5rem * 0.5);
 }
 
-.bmr-table th{
+.bmr-table th {
     width: 230px;
     text-align: left;
     background-color: #212529 !important;
@@ -88,17 +90,17 @@ input::placeholder {
     font-weight: 500;
 }
 
-.bmr-table td{
+.bmr-table td {
     background-color: #0d6efd !important;
     color: white !important;
 }
 
-.amr-table{
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
+.amr-table {
+    padding-right: calc(1.5rem * 0.5);
+    padding-left: calc(1.5rem * 0.5);
 }
 
-.amr-table th{
+.amr-table th {
     width: 380px;
     text-align: left;
     background-color: #212529 !important;
@@ -106,32 +108,32 @@ input::placeholder {
     font-weight: 500;
 }
 
-.amr-table td{
+.amr-table td {
     background-color: #0d6efd !important;
     color: white !important;
 }
 
-footer p{
+footer p {
     margin-top: 15px;
 }
 
-footer a{
+footer a {
     color: #ffffff;
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     color: #0d6efd;
 }
 
 @media (max-width: 992px) {
-    #wrapper{
+    #wrapper {
         padding: 30px 0
     }
 
-    .results-table{
-        padding-right: calc(var(--bs-gutter-x) * 0.5);
-        padding-left: calc(var(--bs-gutter-x) * 0.5);
+    .results-table {
+        padding-right: calc(1.5rem * 0.5);
+        padding-left: calc(1.5rem * 0.5);
     }
 
     .form-section-wrapper {
@@ -139,25 +141,29 @@ footer a:hover{
         margin-bottom: 30px;
     }
 
-    .bmr-table{
+    .bmr-table {
         margin-bottom: 30px !important;
     }
-    
-    .bmr-table th{
+
+    .bmr-table th {
         width: 200px;
     }
 
-    .amr-table th{
+    .amr-table th {
         width: 200px;
     }
 
-    footer p{
+    footer p {
         font-size: 15px;
     }
 }
 
-@media (max-width: 400px){
-    #name, #age, #height, #weight{
+@media (max-width: 400px) {
+
+    #name,
+    #age,
+    #height,
+    #weight {
         width: 220px !important;
     }
 
@@ -165,12 +171,12 @@ footer a:hover{
         margin-bottom: 30px;
     }
 
-    .bmr-table th{
+    .bmr-table th {
         width: 130px;
     }
 
-    .amr-table th{
+    .amr-table th {
         width: 130px;
     }
-    
+
 }
