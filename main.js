@@ -65,19 +65,6 @@ form.addEventListener('submit', function (e) {
     // Print BMI value
     bmiScoreElement.innerHTML = `${name} your score is ${bmi}`;
 
-    // Print BMR value
-    maintainWeightElement.innerHTML = `Consume ${maintainWeight} calories per day`;
-    mildWeightLossElement.innerHTML = `Consume ${bmr} calories per day`;
-    moderateWeightLossElement.innerHTML = `Consume ${moderateWeightLoss} calories per day`;
-    extremeWeightLossElement.innerHTML = `Consume ${extremeWeightLoss} calories per day`;
-
-    //Print AMR value
-    sedentaryElement.innerHTML = `${sedentary} calories per day`;
-    lightlyActiveElement.innerHTML = `${lightlyActive} calories per day`;
-    moderatelyActiveElement.innerHTML = `${moderatelyActive} calories per day`;
-    activeElement.innerHTML = `${active} calories per day`;
-    veryActiveElement.innerHTML = `${veryActive} calories per day`;
-
     // Print Status & Ideal Weight as per BMI value
     if (bmi < 16) {
       statusElement.innerHTML = `at the age of ${age} you are Severely Thin`;
@@ -111,5 +98,18 @@ form.addEventListener('submit', function (e) {
       statusElement.innerHTML = `at the age of ${age} you are Severely Obese`;
       idealWeightElement.innerHTML = `Maintain at least ${iw} kg`;
     }
+
+    // Print BMR value
+    maintainWeightElement.innerHTML = `Consume ${maintainWeight} calories per day`;
+    mildWeightLossElement.innerHTML = `Consume ${bmr} calories per day`;
+    moderateWeightLossElement.innerHTML = `Consume ${moderateWeightLoss} calories per day`;
+    extremeWeightLossElement.innerHTML = `Consume ${extremeWeightLoss} calories per day`;
+
+    //Print AMR value
+    sedentaryElement.innerHTML = `${sedentary} calories per day`;
+    lightlyActiveElement.innerHTML = `${lightlyActive} calories per day`;
+    moderatelyActiveElement.innerHTML = `${moderatelyActive} calories per day`;
+    activeElement.innerHTML = `${active} calories per day`;
+    veryActiveElement.innerHTML = `${veryActive} calories per day`;
   }
 });
