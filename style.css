@@ -54,7 +54,15 @@ input::placeholder {
     text-align: start;
 }
 
+#bmi-score::first-letter {
+    text-transform: uppercase;
+}
+
 #status::first-letter {
+    text-transform: uppercase;
+}
+
+#ideal-weight::first-letter {
     text-transform: uppercase;
 }
 
@@ -93,6 +101,10 @@ input::placeholder {
 .bmr-table td {
     background-color: #0d6efd !important;
     color: white !important;
+}
+
+.bmr-table td::first-letter {
+    text-transform: uppercase;
 }
 
 .amr-table {
